@@ -1,19 +1,21 @@
 {
-  "homepage": "http://Hanan-Alkahwaji.github.io/Phone-store-project",
-
+  
   "name": "project22",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://Hanan-Alkahwaji.github.io/Phone-store-project",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -30,8 +32,7 @@
     "vite": "^5.4.1"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Hanan-Alkahwaji/Phone-store-project.git"
-}
-
+    "type": "git",
+    "url": "https://github.com/Hanan-Alkahwaji/Phone-store-project.git"
+  }
 }
